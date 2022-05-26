@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="d:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="G:\Graded Unit Project\FoxCo\FoxCo\bin\Debug\FoxCo.exe">
+   <Modules>
+    <Module Name="foxco.exe">
+     <Namespaces>
+      <Namespace Name="FoxCo">
+       <Types>
+        <Type Name="FoxCoDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'FoxCoDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FoxCoDataSet+AircraftDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'FoxCoDataSet.AircraftDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FoxCoDataSet+BookingDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'FoxCoDataSet.BookingDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FoxCoDataSet+CustomerDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'FoxCoDataSet.CustomerDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FoxCoDataSet+FlightDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'FoxCoDataSet.FlightDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FoxCoDataSet+PassengerDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'FoxCoDataSet.PassengerDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FoxCoDataSet+RouteDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'FoxCoDataSet.RouteDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FoxCoDataSet+StaffDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'FoxCoDataSet.StaffDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="loginScreen" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#loginCheck(System.Int32,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo" File="Form1.cs" Line="75">Object 'con' can be disposed more than once in method 'loginScreen.loginCheck(int, string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 75</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MainMenu" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonAdmin_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo" File="MainMenu.cs" Line="109">Object 'this' can be disposed more than once in method 'MainMenu.buttonAdmin_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 109</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonCustService_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo" File="MainMenu.cs" Line="146">Object 'this' can be disposed more than once in method 'MainMenu.buttonCustService_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 146</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonLogOff_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo" File="MainMenu.cs" Line="174">Object 'this' can be disposed more than once in method 'MainMenu.buttonLogOff_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 174</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonMaintenance_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo" File="MainMenu.cs" Line="160">Object 'this' can be disposed more than once in method 'MainMenu.buttonMaintenance_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 160</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="FoxCo.Admin">
+       <Types>
+        <Type Name="AdminMenu" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonCreFlight_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="AdminMenu.cs" Line="62">Object 'this' can be disposed more than once in method 'AdminMenu.buttonCreFlight_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 62</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonCreStaff_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="AdminMenu.cs" Line="44">Object 'this' can be disposed more than once in method 'AdminMenu.buttonCreStaff_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 44</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonDelFlight_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="AdminMenu.cs" Line="80">Object 'this' can be disposed more than once in method 'AdminMenu.buttonDelFlight_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 80</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonDelStaff_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="AdminMenu.cs" Line="53">Object 'this' can be disposed more than once in method 'AdminMenu.buttonDelStaff_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 53</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="AdminMenu.cs" Line="89">Object 'this' can be disposed more than once in method 'AdminMenu.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 89</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonUpdFlight_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="AdminMenu.cs" Line="71">Object 'this' can be disposed more than once in method 'AdminMenu.buttonUpdFlight_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 71</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonUpdStaff_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="AdminMenu.cs" Line="35">Object 'this' can be disposed more than once in method 'AdminMenu.buttonUpdStaff_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 35</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#countBookingReference(System.Int32,System.DateTime)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="AdminMenu.cs" Line="185">Object 'reader' can be disposed more than once in method 'AdminMenu.countBookingReference(int, DateTime)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 185</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getBookingReference(System.Int32,System.Int32,System.DateTime)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="AdminMenu.cs" Line="216">Object 'reader' can be disposed more than once in method 'AdminMenu.getBookingReference(int, int, DateTime)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 216</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getCustomerCount()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="AdminMenu.cs" Line="126">Object 'reader' can be disposed more than once in method 'AdminMenu.getCustomerCount()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 126</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getCustomerID(System.Int32,System.DateTime)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="AdminMenu.cs" Line="158">Object 'reader' can be disposed more than once in method 'AdminMenu.getCustomerID(int, DateTime)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 158</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CreateFlight" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="CreateFlight.cs" Line="266">Object 'this' can be disposed more than once in method 'CreateFlight.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 266</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#checkAlreadyOnFlight(System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="CreateFlight.cs" Line="191">Object 'reader' can be disposed more than once in method 'CreateFlight.checkAlreadyOnFlight(string, string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 191</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillAircraft()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="CreateFlight.cs" Line="72">Object 'reader' can be disposed more than once in method 'CreateFlight.fillAircraft()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 72</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillRoutes()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="CreateFlight.cs" Line="49">Object 'reader' can be disposed more than once in method 'CreateFlight.fillRoutes()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 49</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#planeRange(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="CreateFlight.cs" Line="257">Object 'reader' can be disposed more than once in method 'CreateFlight.planeRange(string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 257</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#routeDistance(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="CreateFlight.cs" Line="234">Object 'reader' can be disposed more than once in method 'CreateFlight.routeDistance(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 234</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CreateStaff" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="CreateStaff.cs" Line="111">Object 'this' can be disposed more than once in method 'CreateStaff.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 111</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#userInsert(System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="CreateStaff.cs" Line="92">Object 'this' can be disposed more than once in method 'CreateStaff.userInsert(string, string, string, string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 92</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DeleteFlight" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="DeleteFlight.cs" Line="32">Object 'this' can be disposed more than once in method 'DeleteFlight.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 32</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillFlights()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="DeleteFlight.cs" Line="56">Object 'reader' can be disposed more than once in method 'DeleteFlight.fillFlights()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 56</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#finalDelete(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="DeleteFlight.cs" Line="100">Object 'this' can be disposed more than once in method 'DeleteFlight.finalDelete(string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 100</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DeleteStaff" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="DeleteStaff.cs" Line="101">Object 'this' can be disposed more than once in method 'DeleteStaff.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 101</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillData()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="DeleteStaff.cs" Line="46">Object 'reader' can be disposed more than once in method 'DeleteStaff.fillData()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 46</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#userDelete(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="DeleteStaff.cs" Line="90">Object 'this' can be disposed more than once in method 'DeleteStaff.userDelete(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 90</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ModifyStaff" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="ModifyStaff.cs" Line="102">Object 'this' can be disposed more than once in method 'ModifyStaff.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 102</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillData()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="ModifyStaff.cs" Line="84">Object 'reader' can be disposed more than once in method 'ModifyStaff.fillData()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 84</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UpdateFlight" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#aircraftCheck()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="UpdateFlight.cs" Line="75">Object 'reader' can be disposed more than once in method 'UpdateFlight.aircraftCheck()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 75</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="UpdateFlight.cs" Line="36">Object 'this' can be disposed more than once in method 'UpdateFlight.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 36</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#checkAlreadyOnFlight(System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="UpdateFlight.cs" Line="172">Object 'reader' can be disposed more than once in method 'UpdateFlight.checkAlreadyOnFlight(string, string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 172</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillAircraft()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="UpdateFlight.cs" Line="354">Object 'reader' can be disposed more than once in method 'UpdateFlight.fillAircraft()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 354</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillFlights()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="UpdateFlight.cs" Line="309">Object 'reader' can be disposed more than once in method 'UpdateFlight.fillFlights()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 309</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillRoutes()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="UpdateFlight.cs" Line="331">Object 'reader' can be disposed more than once in method 'UpdateFlight.fillRoutes()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 331</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#planeRange(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="UpdateFlight.cs" Line="240">Object 'reader' can be disposed more than once in method 'UpdateFlight.planeRange(string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 240</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#routeDistance(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Admin" File="UpdateFlight.cs" Line="214">Object 'reader' can be disposed more than once in method 'UpdateFlight.routeDistance(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 214</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="FoxCo.CustServ">
+       <Types>
+        <Type Name="CreateBooking" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#bookingRefCheck(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreateBooking.cs" Line="335">Object 'reader' can be disposed more than once in method 'CreateBooking.bookingRefCheck(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 335</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreateBooking.cs" Line="31">Object 'this' can be disposed more than once in method 'CreateBooking.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 31</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillCustomer()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreateBooking.cs" Line="52">Object 'reader' can be disposed more than once in method 'CreateBooking.fillCustomer()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 52</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillRoutes()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreateBooking.cs" Line="74">Object 'reader' can be disposed more than once in method 'CreateBooking.fillRoutes()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 74</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#flightCheck(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreateBooking.cs" Line="169">Object 'reader' can be disposed more than once in method 'CreateBooking.flightCheck(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 169</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#flightFill(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreateBooking.cs" Line="143">Object 'reader' can be disposed more than once in method 'CreateBooking.flightFill(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 143</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#seatCost(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreateBooking.cs" Line="116">Object 'reader' can be disposed more than once in method 'CreateBooking.seatCost(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 116</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#updateLastBooked(System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreateBooking.cs" Line="312">Object 'this' can be disposed more than once in method 'CreateBooking.updateLastBooked(int, int, int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 312</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CreateCustomer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreateCustomer.cs" Line="21">Object 'this' can be disposed more than once in method 'CreateCustomer.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 21</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateCust(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreateCustomer.cs" Line="104">Object 'this' can be disposed more than once in method 'CreateCustomer.CreateCust(string, string, string, string, string, string, string, string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 104</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CreatePassenger" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#insertPassenger(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreatePassenger.cs" Line="184">Object 'this' can be disposed more than once in method 'CreatePassenger.insertPassenger(string, string, string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 184</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#passengerIDCheck(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreatePassenger.cs" Line="214">Object 'reader' can be disposed more than once in method 'CreatePassenger.passengerIDCheck(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 214</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#seatBooked(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreatePassenger.cs" Line="66">Object 'reader' can be disposed more than once in method 'CreatePassenger.seatBooked(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 66</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#seatNumber()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CreatePassenger.cs" Line="94">Object 'reader' can be disposed more than once in method 'CreatePassenger.seatNumber()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 94</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CustServMenu" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonCreBooking_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CustServMenu.cs" Line="43">Object 'this' can be disposed more than once in method 'CustServMenu.buttonCreBooking_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 43</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonCreCustomer_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CustServMenu.cs" Line="35">Object 'this' can be disposed more than once in method 'CustServMenu.buttonCreCustomer_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 35</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonDelBook_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CustServMenu.cs" Line="51">Object 'this' can be disposed more than once in method 'CustServMenu.buttonDelBook_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 51</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonModBooking_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CustServMenu.cs" Line="67">Object 'this' can be disposed more than once in method 'CustServMenu.buttonModBooking_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 67</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CustServMenu.cs" Line="27">Object 'this' can be disposed more than once in method 'CustServMenu.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 27</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonUpPassenger_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="CustServMenu.cs" Line="59">Object 'this' can be disposed more than once in method 'CustServMenu.buttonUpPassenger_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 59</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DeleteBooking" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#bookingSearch(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="DeleteBooking.cs" Line="60">Object 'reader' can be disposed more than once in method 'DeleteBooking.bookingSearch(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 60</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="DeleteBooking.cs" Line="122">Object 'this' can be disposed more than once in method 'DeleteBooking.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 122</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#deleteBooking(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="DeleteBooking.cs" Line="158">Object 'con' can be disposed more than once in method 'DeleteBooking.deleteBooking(string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 158</Issue>
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="DeleteBooking.cs" Line="165">Object 'this' can be disposed more than once in method 'DeleteBooking.deleteBooking(string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 165</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#displayDetails(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="DeleteBooking.cs" Line="113">Object 'reader' can be disposed more than once in method 'DeleteBooking.displayDetails(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 113</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ModifyBooking" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#bookingSearch(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="ModifyBooking.cs" Line="49">Object 'reader' can be disposed more than once in method 'ModifyBooking.bookingSearch(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 49</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="ModifyBooking.cs" Line="315">Object 'this' can be disposed more than once in method 'ModifyBooking.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 315</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#customerName()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="ModifyBooking.cs" Line="299">Object 'reader' can be disposed more than once in method 'ModifyBooking.customerName()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 299</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillRoutes()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="ModifyBooking.cs" Line="91">Object 'reader' can be disposed more than once in method 'ModifyBooking.fillRoutes()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 91</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#flightCheck(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="ModifyBooking.cs" Line="193">Object 'reader' can be disposed more than once in method 'ModifyBooking.flightCheck(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 193</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#flightFill(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="ModifyBooking.cs" Line="117">Object 'reader' can be disposed more than once in method 'ModifyBooking.flightFill(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 117</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#seatBooked(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="ModifyBooking.cs" Line="248">Object 'reader' can be disposed more than once in method 'ModifyBooking.seatBooked(int, int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 248</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#seatCost(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="ModifyBooking.cs" Line="169">Object 'reader' can be disposed more than once in method 'ModifyBooking.seatCost(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 169</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#seatNumber(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="ModifyBooking.cs" Line="275">Object 'reader' can be disposed more than once in method 'ModifyBooking.seatNumber(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 275</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#updateBooking(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="ModifyBooking.cs" Line="379">Object 'this' can be disposed more than once in method 'ModifyBooking.updateBooking(string)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 379</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UpdatePassenger" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#bookingSearch(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="UpdatePassenger.cs" Line="49">Object 'reader' can be disposed more than once in method 'UpdatePassenger.bookingSearch(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 49</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="UpdatePassenger.cs" Line="106">Object 'this' can be disposed more than once in method 'UpdatePassenger.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 106</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#displayDetails(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="UpdatePassenger.cs" Line="89">Object 'reader' can be disposed more than once in method 'UpdatePassenger.displayDetails(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 89</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#seatBooked(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="UpdatePassenger.cs" Line="143">Object 'reader' can be disposed more than once in method 'UpdatePassenger.seatBooked(int, int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 143</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#seatNumber(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\CustServ" File="UpdatePassenger.cs" Line="171">Object 'reader' can be disposed more than once in method 'UpdatePassenger.seatNumber(int)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 171</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="FoxCo.Maintenance">
+       <Types>
+        <Type Name="MaintMenu" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Maintenance" File="MaintMenu.cs" Line="36">Object 'this' can be disposed more than once in method 'MaintMenu.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 36</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonReview_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Maintenance" File="MaintMenu.cs" Line="27">Object 'this' can be disposed more than once in method 'MaintMenu.buttonReview_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 27</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonUpdate_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Maintenance" File="MaintMenu.cs" Line="45">Object 'this' can be disposed more than once in method 'MaintMenu.buttonUpdate_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 45</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ReviewChecks" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Maintenance" File="ReviewChecks.cs" Line="53">Object 'this' can be disposed more than once in method 'ReviewChecks.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 53</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonSelect_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Maintenance" File="ReviewChecks.cs" Line="97">Object 'reader' can be disposed more than once in method 'ReviewChecks.buttonSelect_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 97</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#buttonUpdate_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Maintenance" File="ReviewChecks.cs" Line="61">Object 'this' can be disposed more than once in method 'ReviewChecks.buttonUpdate_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 61</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillAircraft()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Maintenance" File="ReviewChecks.cs" Line="44">Object 'reader' can be disposed more than once in method 'ReviewChecks.fillAircraft()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 44</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UpdateChecks" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#buttonReturn_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Maintenance" File="UpdateChecks.cs" Line="55">Object 'this' can be disposed more than once in method 'UpdateChecks.buttonReturn_Click(object, EventArgs)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 55</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fillAircraft()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-04-18 17:15:44Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="G:\Graded Unit Project\FoxCo\FoxCo\Maintenance" File="UpdateChecks.cs" Line="45">Object 'reader' can be disposed more than once in method 'UpdateChecks.fillAircraft()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 45</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="FoxCo.Properties">
+       <Types>
+        <Type Name="Resources" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2018-04-18 17:15:44Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Avoid uncalled private code</Name>
+   <Description>There is uncalled code that is not externally visible and is not a known runtime entry point. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Do not dispose objects multiple times</Name>
+   <Description>A correctly implemented Dispose method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.</Description>
+   <Resolution Name="Default">Object {0} can be disposed more than once in method {1}. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 354</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
+   <Name>Implement ISerializable correctly</Name>
+   <Description>If a type is assignable to ISerializable, it should implement GetObjectData. For unsealed types, the GetObjectData method should be callable and overridable by derived types.</Description>
+   <Resolution Name="Default">Add an implementation of GetObjectData to type {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182342.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
